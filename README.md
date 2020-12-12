@@ -3,7 +3,7 @@
 ## Project Overview
 
 A Colorado Board of Elections employee has given you the following tasks to complete the
-election audit of a recent local congressional election.
+election audit of a recent local congressional election that took place in Arapahoe, Denver and Jefferson counties Colorado (basically Denver and its suburbs).
 
   1. Calculate the total number of votes cast. 
   2. Get a complete list of candidates who received votes. 
@@ -30,7 +30,18 @@ election audit of a recent local congressional election.
    
  * The winner of the election was:
    * Diana DeGette received 73.8% of the vote and 272,892 votes total.
+   
+ Those script that analyzes the code can be found here - 
     
 ## Challenge Overview
 
 ## Challenge Summary
+
+The good news about this script it that it can be used anywhere as long as the source .csv file is formulated in the same way. All you need for this to work is a spreadsheet with three things. 
+
+* A Unique ID for each cast vote. 
+* The County in which the vote took place.
+* The candidate who received the vote. 
+
+An easier way this could have been improved if the candidate's performance and vote totals were analyzed per county. 
+
