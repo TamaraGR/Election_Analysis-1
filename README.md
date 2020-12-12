@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis
 
 ## Project Overview
 
@@ -17,17 +17,17 @@ election audit of a recent local congressional election.
  
  ### Summary
  The analysis of the election show that:
- * There were "x" votes cast in the eletion. 
+ * There were 369,711 votes cast in the eletion. 
  * The candidates were:
-    ** Candidate 1
-    ** Candidate 2
-    ** Candidate 3
+    ** Charles Casper Stockham
+    ** Diana DeGette
+    ** Raymon Anthony Doane
  * The candidate results were: 
-    ** Candidate 1 received x percentage of the vote and y number of votes
-    ** Candidate 2 received x percentage of the vote and y number of votes
-    ** Candidate 3 received x percentage of the vote and y number of votes
- * The winner of the elction was:
-    ** Candidate x who received x percentage of the vote and y number of votes
+    ** Charles Casper Stockham received 23.0% of the vote and 85,213 votes total.
+    ** Diana DeGette received 73.8% of the vote and 272,892 votes total.
+    ** Raymon Anthony Doane received 3.1% of the vote and 11,606 votes total.
+ * The winner of the election was:
+    ** Diana DeGette received 73.8% of the vote and 272,892 votes total.
     
 ## Challenge Overview
 
