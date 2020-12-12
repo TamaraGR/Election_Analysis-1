@@ -51,5 +51,5 @@ The good news about this script it that it can be used anywhere as long as the s
 * The County in which the vote took place.
 * The candidate who received the vote. 
 
-An easier way this could have been improved if the candidate's performance and vote totals were analyzed per county. 
+An simple way this could have been improved if the candidate's performance and vote totals were analyzed per county. 
 
