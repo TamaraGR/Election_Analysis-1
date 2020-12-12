@@ -5,7 +5,7 @@
 A Colorado Board of Elections employee has given you the following tasks to complete the
 election audit of a recent local congressional election that took place in Arapahoe, Denver and Jefferson counties Colorado (basically Denver and its suburbs, shown below).
 
-
+<br />
 
 <img src ="https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/counties_outlined_red.png" width="600" height="434">
 
