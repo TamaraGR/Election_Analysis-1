@@ -9,7 +9,7 @@ election audit of a recent local congressional election that took place in Arapa
 
 <img src ="https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/counties_outlined_red.png" width="600" height="434">
 
-
+<br />
 
 The goal of the analysis was to do the following:
 
