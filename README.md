@@ -22,12 +22,14 @@ election audit of a recent local congressional election.
    * Charles Casper Stockham
    * Diana DeGette
    * Raymon Anthony Doane
+   
  * The candidate results were: 
-  * Charles Casper Stockham received 23.0% of the vote and 85,213 votes total.
-  * Diana DeGette received 73.8% of the vote and 272,892 votes total.
-  * Raymon Anthony Doane received 3.1% of the vote and 11,606 votes total.
+   * Charles Casper Stockham received 23.0% of the vote and 85,213 votes total.
+   * Diana DeGette received 73.8% of the vote and 272,892 votes total.
+   * Raymon Anthony Doane received 3.1% of the vote and 11,606 votes total.
+   
  * The winner of the election was:
-  * Diana DeGette received 73.8% of the vote and 272,892 votes total.
+   * Diana DeGette received 73.8% of the vote and 272,892 votes total.
     
 ## Challenge Overview
 
