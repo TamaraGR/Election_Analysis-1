@@ -20,7 +20,7 @@ The goal of the analysis was to do the following:
   5. Determine the winner of the election based on popular vote. 
   
  ### Resources 
- * Data Source: [election_results.csv](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/election_results.csv)
+ * Data Source: [election_results.csv](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/election_results.csv) (feel free to download)
  * Software: Python 3.7.6, Visual Studio Code, 1.51.1
  
  ### Summary
