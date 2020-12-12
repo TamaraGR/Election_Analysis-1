@@ -5,7 +5,11 @@
 A Colorado Board of Elections employee has given you the following tasks to complete the
 election audit of a recent local congressional election that took place in Arapahoe, Denver and Jefferson counties Colorado (basically Denver and its suburbs, shown below).
 
+
 ![election area](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/counties_outlined_red.png)
+
+
+The goal of the analysis was to do the following:
 
   1. Calculate the total number of votes cast. 
   2. Get a complete list of candidates who received votes. 
