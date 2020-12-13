@@ -81,7 +81,11 @@ The "challenge" of this challenge was that it's easier to do in Excel, but that 
   * Get the candidate's respective percentages
   * If loop
     * determine the winning candidate, their vote total, and their percentage
-    
+
+<br />
+
+The image below is the code.  
+  
 ![code_screenshots](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/code_screenshots.png)
 
 
