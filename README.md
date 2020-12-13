@@ -60,6 +60,27 @@ The "challenge" of this challenge was that it's easier to do in Excel, but that 
 * Import the file to load (the election results' .csv file)
 * Open the blank .txt file which we'll be writing into
 * Create a series of empty variables, lists and dictionaries, which will hold the vote totals, candidate names and counties.
+* Create a with block to open the election result's file. 
+  * for loop to read the csv file
+    * iterate over the csv file
+    * add vote totals
+    * If statement
+      * update the formerly empty list of candidate names
+      * update the formerly empty list of candidate totals
+    * If statement
+      * update the formerly empty list of county names
+      * update the formerly empty list of county vote totals
+* Create a with block to open the file in which we'll be writing to. 
+  * divide the couty vote totals by total votes
+  * get the percentage of the vote per county
+  * If loop
+    * finde out the county w/ the largest vote total
+* For loop:
+  * connect the dictionary with county names & their totals with the largest vote total. 
+* For loop
+  * Get the candidate's respective percentages
+  * If loop
+    * determine the winning candidate, their vote total, and their percentage
 
 
 ## Challenge Summary
