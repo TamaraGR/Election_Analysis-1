@@ -40,6 +40,8 @@ The goal of the analysis was to do the following:
    * Diana DeGette received 73.8% of the vote and 272,892 votes total.
    
 ---
+
+### Summary - Results
   
 <br />
    
