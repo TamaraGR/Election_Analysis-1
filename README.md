@@ -82,7 +82,7 @@ The "challenge" of this challenge was that it's easier to do in Excel, but that 
   * If loop
     * determine the winning candidate, their vote total, and their percentage
     
-[code_screenshots](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/code_screenshots.png)
+![code_screenshots](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/code_screenshots.png)
 
 
 ## Challenge Summary
