@@ -55,6 +55,13 @@ The goal of the analysis was to do the following:
 
 ## Challenge Overview
 
+The "challenge" of this challenge was that it's easier to do in Excel, but that would defeat the purpose, we're trying to learn Python here. Conceptually, the code does this. 
+
+* Import the file to load (the election results' .csv file)
+* Open the blank .txt file which we'll be writing into
+* Create a series of empty variables, lists and dictionaries, which will hold the vote totals, candidate names and counties.
+
+
 ## Challenge Summary
 
 The good news about this script it that it can be used anywhere as long as the source .csv file is formulated in the same way. All you need for this to work is a spreadsheet with three things. 
