@@ -39,8 +39,8 @@ The goal of the analysis was to do the following:
  * The winner of the election was:
    * Diana DeGette received 73.8% of the vote and 272,892 votes total.
    
- ---
-   
+---
+  
 <br />
    
 <img src ="https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/results_screenshot.png" width="536" height="492">  
@@ -48,7 +48,9 @@ The goal of the analysis was to do the following:
 <br />
    
  Those script that analyzes the code and produces the above stats can be found here - [python file](https://github.com/carlosjennings1991/Election_Analysis/blob/main/PyPoll_Challenge.py)
-    
+
+---
+
 ## Challenge Overview
 
 ## Challenge Summary
