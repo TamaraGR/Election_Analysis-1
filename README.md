@@ -101,9 +101,13 @@ An simple way this could have been improved if the candidate's performance and v
 
 The following is the code which I have added to the challenge which does this. 
 
+<br />
+
 ![additional code screenshot](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/additional_code_snippet.png)
 
 It's not the most elegant, and I'm sure there's a smarter way to do this with a custom function (which I'll add later), but it outputs the following results which give some insight into how each county voted differently from the other. 
+
+<br />
 
 ![additional code output](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/additional_code_output.png)
 
