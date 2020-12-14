@@ -29,7 +29,18 @@ winning_percentage = 0
 
 # 2: Track the largest county and county voter turnout.
 largest_county = 0
-largest_county_turnout = []
+largest_vote = 0
+
+# Empty variables to track candidate's share per county
+arapahoe_Stockham = 0
+arapahoe_DeGette = 0
+arapahoe_Doane = 0
+denver_Stockham = 0
+denver_DeGette = 0
+denver_Doane = 0
+jefferson_Stockham = 0
+jefferson_DeGette = 0
+jefferson_Doane = 0
 
 # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
@@ -75,6 +86,10 @@ with open(file_to_load) as election_data:
 
         # 5: Add a vote to that county's vote count.
         county_votes[county_name] += 1
+
+        # Get candidate totals per county:
+        #if candidate_name == "Charles Casper Stockham" and county_name == "Arapahoe":
+            
 
 
 # Save the results to our text file.
@@ -158,3 +173,46 @@ with open(file_to_save, "w") as txt_file:
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
 
+
+
+with open(file_to_load) as election_data:
+    reader = csv.reader(election_data)
+
+    # Read the header
+    header = next(reader)
+
+    # For each row in the CSV file.
+    for row in reader:
+
+        if row[1] == "Arapahoe" and row[2] == "Charles Casper Stockham":
+            arapahoe_Stockham += 1
+        if row[1] == "Arapahoe" and row[2] == "Diana DeGette":
+            arapahoe_DeGette += 1
+        if row[1] == "Arapahoe" and row[2] == "Raymon Anthony Doane":
+            arapahoe_Doane += 1
+        if row[1] == "Denver" and row[2] == "Charles Casper Stockham":
+            denver_Stockham += 1
+        if row[1] == "Denver" and row[2] == "Diana DeGette":
+            denver_DeGette += 1
+        if row[1] == "Denver" and row[2] == "Raymon Anthony Doane":
+            denver_Doane += 1
+        if row[1] == "Jefferson" and row[2] == "Charles Casper Stockham":
+            jefferson_Stockham += 1
+        if row[1] == "Jefferson" and row[2] == "Diana DeGette":
+            jefferson_DeGette += 1
+        if row[1] == "Jefferson" and row[2] == "Raymon Anthony Doane":
+            jefferson_Doane += 1
+
+
+print("Stockham got " + str(round((arapahoe_Stockham / county_votes['Arapahoe']),4) * 100) + "% of the vote in Arapahoe County")
+print("DeGette got " + str(round((arapahoe_DeGette / county_votes['Arapahoe']),4) * 100) + "% of the vote in Arapahoe County")
+print("Doane got " + str(round((arapahoe_Doane / county_votes['Arapahoe']),4) * 100) + "% of the vote in Arapahoe County")
+print()
+print("Stockham got " + str(round((denver_Stockham / county_votes['Denver']),4) * 100) + "% of the vote in Denver County")
+print("DeGette got " + str(round((denver_DeGette / county_votes['Denver']),4) * 100) + "% of the vote in Denver County")
+print("Doane got " + str(round((denver_Doane / county_votes['Denver']),3) * 100) + "% of the vote in Denver County")
+print()
+print("Stockham got " + str(round((jefferson_Stockham / county_votes['Jefferson']),3) * 100) + "% of the vote in Jefferson County")
+print("DeGette got " + str(round((jefferson_DeGette / county_votes['Jefferson']),4) * 100) + "% of the vote in Jefferson County")
+print("Doane got " + str(round((jefferson_Doane / county_votes['Jefferson']),4) * 100) + "% of the vote in Jefferson County")
+print()
