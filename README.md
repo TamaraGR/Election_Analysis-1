@@ -109,5 +109,5 @@ It's not the most elegant, and I'm sure there's a smarter way to do this with a 
 
 <br />
 
-![additional code output](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/additional_code_output.png)
+<img src="https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/additional_code_output.png" width="412" height="177">
 
