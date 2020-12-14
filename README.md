@@ -99,3 +99,7 @@ The good news about this script it that it can be used anywhere as long as the s
 
 An simple way this could have been improved if the candidate's performance and vote totals were analyzed per county. 
 
+The following is the code which I have added to the challenge which does this. 
+
+![additional code screenshot](https://github.com/carlosjennings1991/Election_Analysis/blob/main/Resources/additional_code_snippet.png)
+
